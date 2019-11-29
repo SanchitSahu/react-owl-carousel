@@ -1,5 +1,8 @@
-# react-owl-carousel  [![npm version](https://img.shields.io/npm/v/react-owl-carousel.svg?style=flat)](https://www.npmjs.com/package/react-owl-carousel)
-[React](http://facebook.github.io/react/) + [Owl Carousel 2.3](https://owlcarousel2.github.io/OwlCarousel2/)
+# react-owl-carousel-autoheight  [![npm version](https://img.shields.io/npm/v/react-owl-carousel-autoheight.svg?style=flat)](https://www.npmjs.com/package/react-owl-carousel-autoheight)
+[React](http://facebook.github.io/react/) + [Owl Carousel 2.3](https://owlcarousel2.github.io/OwlCarousel2/) + [react-owl-carousel](https://www.npmjs.com/package/react-owl-carousel/)
+
+**NOTE**: This is a wrapper package for [react-owl-carousel](https://www.npmjs.com/package/react-owl-carousel/). Original package didn't have the props to enable '**autoHeight**' from OwlCarousel component initialization.
+This package fixes the mentioned issue
 
 ### 1. Getting Started
 
@@ -27,7 +30,7 @@ wrap your divs inside the OwlCarousel component
 
 ```jsx
 import React from 'react';
-import OwlCarousel from 'react-owl-carousel';
+import OwlCarousel from 'react-owl-carousel-autoheight';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
@@ -39,6 +42,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
     loop
     margin={10}
     nav
+    autoHeight={true}  /* This is the option enabled */
 >
     <div class="item"><h4>1</h4></div>
     <div class="item"><h4>2</h4></div>
@@ -103,8 +107,8 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 | controlsClass | string | 'owl-controls' | Controls container class - wrapper for navs and dots. |
 | dotClass | string | 'owl-dot' | Dot Class. |
 | dotsClass | string | 'owl-dots' | Dots container class. |
-| autoHeightClass | string | 'owl-height' | Auto height class. |
 | autoHeight | boolean | false | Option to enable Auto height class. |
+| autoHeightClass | string | 'owl-height' | Auto height class. |
 | responsiveClass | string/bool | false | Optional helper class. Add '<responsiveClass>-<breakpoint>' class to main element. Can be used to stylize content on given breakpoint. |
 
 

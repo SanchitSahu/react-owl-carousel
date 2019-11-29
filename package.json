@@ -1,7 +1,7 @@
 {
-  "name": "react-owl-carousel",
-  "version": "2.3.1",
-  "description": "React.js + Owl Carousel",
+  "name": "react-owl-carousel-autoheight",
+  "version": "1.0.1",
+  "description": "React.js + Owl Carousel with autoHeight issue fixed",
   "main": "umd/OwlCarousel.js",
   "types": "umd/OwlCarousel.d.ts",
   "scripts": {
@@ -12,19 +12,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seal789ie/react-owl-carousel.git"
+    "url": "git+https://github.com/SanchitSahu/react-owl-carousel.git"
   },
   "keywords": [
     "react",
     "OwlCarousel",
-    "gallery"
+    "gallery",
+    "autoHeight",
+    "autoHeightClass",
+    "react-owl-carousel"
   ],
-  "author": "xhriman",
+  "author": "sanchit-sahu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/seal789ie/react-owl-carousel/issues"
+    "url": "https://github.com/SanchitSahu/react-owl-carousel/issues"
   },
-  "homepage": "https://github.com/seal789ie/react-owl-carousel#readme",
+  "homepage": "https://github.com/SanchitSahu/react-owl-carousel#readme",
   "peerDependencies": {
     "jquery": ">=1.8.3",
     "react": ">=15"
