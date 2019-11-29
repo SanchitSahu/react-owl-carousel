@@ -186,6 +186,7 @@ const OPTIONS = new Set([
     'controlsClass',
     'dotClass',
     'dotsClass',
+    'autoHeight',
     'autoHeightClass',
     'responsiveClass',
 

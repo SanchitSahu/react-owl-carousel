@@ -64,6 +64,7 @@ export interface Options {
     controlsClass?: string;
     dotClass?: string;
     dotsClass?: string;
+    autoHeight?: boolean;
     autoHeightClass?: string;
     responsiveClass?: string | boolean;
 

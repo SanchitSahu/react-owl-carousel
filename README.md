@@ -104,6 +104,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 | dotClass | string | 'owl-dot' | Dot Class. |
 | dotsClass | string | 'owl-dots' | Dots container class. |
 | autoHeightClass | string | 'owl-height' | Auto height class. |
+| autoHeight | boolean | false | Option to enable Auto height class. |
 | responsiveClass | string/bool | false | Optional helper class. Add '<responsiveClass>-<breakpoint>' class to main element. Can be used to stylize content on given breakpoint. |
 
 

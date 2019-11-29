@@ -3560,6 +3560,7 @@
         'controlsClass',
         'dotClass',
         'dotsClass',
+        'autoHeight',
         'autoHeightClass',
         'responsiveClass',
         // 'EVENTS'
