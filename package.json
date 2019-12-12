@@ -4,9 +4,6 @@
   "description": "React.js + Owl Carousel with autoHeight issue fixed",
   "main": "umd/OwlCarousel.js",
   "types": "umd/OwlCarousel.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "clean": "rimraf umd",
     "build:uncompressed": "cross-env NODE_ENV=development rollup -c",
